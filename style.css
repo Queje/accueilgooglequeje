@@ -1,0 +1,172 @@
+html, body 
+{
+  height: 100%;
+  margin: 0; padding: 0;
+}
+
+body 
+{
+  display : table;
+  width: 100%;
+}
+
+a
+{
+  text-decoration: none;
+  color:grey;
+}
+
+.nav
+{
+  display:flex;
+  justify-content: flex-end;
+}
+
+.mail,.images,.menu,.login
+{
+  line-height: 30px;
+  padding: 0 12px; 
+  border-radius: 2px;
+  font-size: 13px;
+  font-family: arial,sans-serif;
+  margin-left:1px;
+  margin-right: 3px;
+  align-content: center; 
+  text-align: left;
+}
+
+.mail,.images
+{
+  display: inline-block;
+  line-height: 30px;
+  vertical-align: middle;
+}
+
+.mail,.images:link
+{
+  color:black;
+  text-decoration: none;
+}
+
+.login
+{
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  outline: none;
+  background: -webkit-linear-gradient(top,#4387fd,#4683ea)
+}
+
+.login > a
+{
+  color: white;
+}
+
+#gris
+{
+  width: 30px;
+  height: 30px;
+}
+
+.menu:hover
+{
+  background-image:url(images/menu-noir.png);
+  width: [IMAGE_WIDTH_IN_PIXELS]px;
+  height: [IMAGE_HEIGHT_IN_PIXELS]px;
+}
+
+#co:link
+{
+  color:white;
+  text-decoration: none;
+}
+
+.logo
+{
+  display: flex;
+  justify-content: center;
+  align-items:baseline;
+  margin-bottom: 20px
+}
+
+.searchbar
+{
+  font-family:arial, sans-serif;
+  font-size:16px;
+  border: 1px solid silver;
+  border-radius: 20px;
+  margin-left:auto;
+  margin-right: auto;
+  width: 460px;
+  height:39px;
+  display: flex;
+  flex-grow:1;
+  flex-shrink:1;
+  padding:3 8 3 3px;
+  justify-content: space-between;
+}
+
+#lp
+{
+  width:80%;
+  height:95%;
+}
+
+#barre
+{
+  width: 300px;
+  height:30px;
+  justify-content: centre;
+}
+
+#barre:hover
+{
+  background: grey;
+}
+
+#im
+{
+  width:80%;
+  height:80%;
+}
+
+.buttons
+{
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+  margin:10px;
+}
+
+footer 
+{
+  display : table-row;
+  height: 100px;
+  background-color: silver;
+  font-family:arial, sans-serif;
+  font-size:16px;
+  color: grey;
+  margin-top: 3px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav2
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left:3px;
+  margin-right: 3px;
+}
+
+.bottomleft
+{
+  display:flex;
+  float:left;
+}
+
+.bottomright
+{
+  display:flex;
+  float: right;
+}
